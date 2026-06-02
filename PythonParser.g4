@@ -1,13 +1,23 @@
 parser grammar PythonParser;
 options { tokenVocab=PythonLexer; }
 
-// Regra inicial atualizada para aceitar quebras de linha soltas/extras entre comandos
-code : (stat | condicional | func | func_call | NEWLINE)* EOF ; 
+// Regra inicial para a Fase 7
+code : (stat | condicional | func | func_call | loop_while | loop_for | NEWLINE)* EOF ;
 
-// Uma instrução simples (o NEWLINE agora é obrigatório no fim de um stat para separar comandos)
-stat : (expr | query | atribuicao) NEWLINE ;
+// Uma instrução simples
+stat : (expr | query | atribuicao) NEWLINE? ;
 
-atribuicao : ID '=' expr ;
+atribuicao : (ID | PRINT) '=' expr ;
+
+// Estrutura de repetição WHILE
+loop_while
+    : WHILE query COLON NEWLINE bloco # estruturaWhile
+    ;
+
+// Estrutura de repetição FOR usando range
+loop_for
+    : FOR ID IN RANGE LPAREN expr (COMMA expr)? RPAREN COLON NEWLINE bloco # estruturaFor
+    ;
 
 // Definição de Funções
 func 
@@ -16,7 +26,7 @@ func
 
 // Chamada de Funções
 func_call 
-    : ID LPAREN (expr (COMMA expr)*)? RPAREN # chamadaFuncao
+    : (ID | PRINT) LPAREN (expr (COMMA expr)*)? RPAREN # chamadaFuncao
     ;
 
 // Condicionais
@@ -24,12 +34,12 @@ condicional
     : IF query COLON NEWLINE bloco (ELIF query COLON NEWLINE bloco)* (ELSE COLON NEWLINE bloco)? # estruturaCondicional
     ;
 
-// Bloco aceita instruções, condicionais, funções e também ignora linhas em branco extras
+// Bloco que aceita os comandos e ignora linhas vazias
 bloco
-    : (stat | condicional | func | func_call | NEWLINE)+
+    : (stat | condicional | func | func_call | loop_while | loop_for | NEWLINE)+
     ;
 
-// Expressões aritméticas e gerais (Corrigido: adicionado TRUE, FALSE e func_call)
+// Expressões aritméticas e gerais
 expr : LPAREN expr RPAREN                                                         # expressoesEntreParenteses
      | expr (MULTIPLY | DIVISION | DOUBLE_SLASH | MODULUS) expr                  # operacoesComExpressoes
      | expr (PLUS | MINUS) expr                                                   # operacoesComExpressoes
@@ -37,6 +47,7 @@ expr : LPAREN expr RPAREN                                                       
      | FALSE                                                                     # booleanosEmExpressao
      | func_call                                                                 # chamadaFuncaoComoExpressao
      | ID                                                                        # ids
+     | PRINT                                                                     # idsPrint
      | DIGIT                                                                     # numeros
      ;
 
