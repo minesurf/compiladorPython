@@ -123,7 +123,7 @@ ID : (LETTER | '_') (LETTER | DIGIT | '_')* ;
 // 2. Letras 
 fragment LETTER : [a-zA-Z] ;
 
-// 3. Digitos (Atua como o teu INTEGER para a Fase 3)
+// 3. Digitos
 DIGIT : [0-9]+ ;
 
 // 4. WS -> skip 

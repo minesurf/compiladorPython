@@ -1,7 +1,7 @@
 parser grammar PythonParser;
 options { tokenVocab=PythonLexer; }
 
-// Regra inicial para a Fase 7
+// Regra inicial para a Fase 8
 code : (stat | condicional | func | func_call | loop_while | loop_for | NEWLINE)* EOF ;
 
 // Uma instrução simples
@@ -14,9 +14,9 @@ loop_while
     : WHILE query COLON NEWLINE bloco # estruturaWhile
     ;
 
-// Estrutura de repetição FOR usando range
+// Estrutura de repetição FOR usando range ou coleções iteráveis
 loop_for
-    : FOR ID IN RANGE LPAREN expr (COMMA expr)? RPAREN COLON NEWLINE bloco # estruturaFor
+    : FOR ID IN (RANGE LPAREN expr (COMMA expr)? RPAREN | expr) COLON NEWLINE bloco # estruturaFor
     ;
 
 // Definição de Funções
@@ -39,17 +39,45 @@ bloco
     : (stat | condicional | func | func_call | loop_while | loop_for | NEWLINE)+
     ;
 
-// Expressões aritméticas e gerais
+// Expressões aritméticas, gerais e Estruturas de Dados (Fase 8)
 expr : LPAREN expr RPAREN                                                         # expressoesEntreParenteses
      | expr (MULTIPLY | DIVISION | DOUBLE_SLASH | MODULUS) expr                  # operacoesComExpressoes
      | expr (PLUS | MINUS) expr                                                   # operacoesComExpressoes
-     | TRUE                                                                      # booleanosEmExpressao
-     | FALSE                                                                     # booleanosEmExpressao
+     | TRUE                                                                      # booleanosEmExpressaoTrue
+     | FALSE                                                                     # booleanosEmExpressaoFalse
      | func_call                                                                 # chamadaFuncaoComoExpressao
      | ID                                                                        # ids
      | PRINT                                                                     # idsPrint
      | DIGIT                                                                     # numeros
+     | FLOAT                                                                     # floats
+     | STRING                                                                    # stringsEmExpressao
+     | lista                                                                     # listaEmExpressao
+     | tupla                                                                     # tuplaEmExpressao
+     | set_dados                                                                 # setEmExpressao
+     | dicionario                                                                # dicionarioEmExpressao
      ;
+
+// --- Estruturas de Dados Avançadas (Fase 8) ---
+
+lista
+    : LBRACK (expr (COMMA expr)*)? RBRACK
+    ;
+
+tupla
+    : LPAREN (expr (COMMA (expr)*)?)? RPAREN
+    ;
+
+set_dados
+    : LBRACE expr (COMMA expr)* RBRACE
+    ;
+
+dicionario
+    : LBRACE (elemento_dict (COMMA elemento_dict)*)? RBRACE
+    ;
+
+elemento_dict
+    : expr COLON expr
+    ;
 
 // Expressões lógicas / Queries
 query : (TRUE | FALSE)                                                             # valoresBooleanos
