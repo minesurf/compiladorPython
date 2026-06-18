@@ -9,7 +9,7 @@ stat : (expr | query | atribuicao | returnStmt) NEWLINE? ;
 
 atribuicao : (ID | PRINT) '=' expr ;
 
-returnStmt : RETURN expr ;
+returnStmt : RETURN expr # returnStmtt ;
 
 // Estrutura de repetição WHILE
 loop_while

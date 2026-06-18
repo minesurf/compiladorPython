@@ -1,3 +1,4 @@
+from antlr4 import TerminalNode
 if "." in __name__:
     from .PythonParser import PythonParser
     from .PythonParserVisitor import PythonParserVisitor
@@ -20,25 +21,46 @@ class Compiler(PythonParserVisitor):
         super(Compiler, self).__init__()
         self.vars = {}
         self.funcs = {}
+        self.depth = 0  # Rastreador de profundidade para depuração
         return None
-    
-    # Paste here all methods in PythonParserVisitor.py file
+
+    def visit(self, tree):
+        """Override do método visit para rastrear a árvore e detectar loops."""
+        if not tree:
+            return None
+        
+        # Debug opcional: descomente a linha abaixo para ver a árvore sendo percorrida
+        # print("  " * self.depth + f"-> Visitando: {tree.__class__.__name__}")
+        
+        self.depth += 1
+        result = super().visit(tree)
+        self.depth -= 1
+        return result
 
     # Visit a parse tree produced by PythonParser#code.
     
     def visitCode(self, ctx:PythonParser.CodeContext):
-        return self.visitChildren(ctx)
+        result = None
+        # Percorre explicitamente cada instrução no nível raiz
+        for i in range(ctx.getChildCount()):
+            child = ctx.getChild(i)
+            # Evita visitar o token EOF ou NEWLINEs soltos diretamente
+            if not isinstance(child, TerminalNode):
+                result = self.visit(child)
+        return result
 
 
     # Visit a parse tree produced by PythonParser#stat.
     def visitStat(self, ctx:PythonParser.StatContext):
-        return self.visitChildren(ctx)
+        # stat : (expr | query | atribuicao | returnStmt) NEWLINE?
+        # Visitamos apenas o primeiro filho, que contém a lógica real
+        return self.visit(ctx.getChild(0))
 
 
     # Visit a parse tree produced by PythonParser#atribuicao.
     def visitAtribuicao(self, ctx:PythonParser.AtribuicaoContext):
-        # 1. Identificar o nome da variável
-        variable_name = ctx.getChild(0).getText() 
+        # Usamos o primeiro filho para o nome e visitamos o nó da expressão para o valor
+        variable_name = ctx.getChild(0).getText()
         
         # 2. Avaliar a expressão do lado direito
         # Chamamos self.visit() no nó da expressão para obter o seu valor calculado
@@ -110,6 +132,11 @@ class Compiler(PythonParserVisitor):
 
         if name in self.funcs:
             func = self.funcs[name]
+            
+            # Validação de Segurança: Verificar se o número de argumentos coincide com os parâmetros
+            if len(args) != len(func['params']):
+                raise TypeError(f"Erro em tempo de execução: A função '{name}' espera {len(func['params'])} argumento(s), mas recebeu {len(args)}.")
+
             # --- Gestão de Escopo ---
             # Guardamos as variáveis globais atuais
             old_vars = self.vars.copy()
@@ -172,7 +199,13 @@ class Compiler(PythonParserVisitor):
 
     # Visit a parse tree produced by PythonParser#bloco.
     def visitBloco(self, ctx:PythonParser.BlocoContext):
-        return self.visitChildren(ctx)
+        last_result = None
+        # Um bloco é uma sequência de comandos. Visitamos um por um.
+        for i in range(ctx.getChildCount()):
+            child = ctx.getChild(i)
+            if not isinstance(child, TerminalNode):
+                last_result = self.visit(child)
+        return last_result
 
 
     # Visit a parse tree produced by PythonParser#expressoesEntreParenteses.
@@ -245,7 +278,10 @@ class Compiler(PythonParserVisitor):
         name = ctx.ID().getText()
         if name in self.vars:
             return self.vars[name]
-        raise NameError(f"Variável '{name}' não definida")
+        
+        line = ctx.start.line
+        column = ctx.start.column
+        raise NameError(f"Erro na linha {line}, coluna {column}: Variável '{name}' não definida. Verifique se a atribuição foi realizada antes do uso.")
 
 
     # Visit a parse tree produced by PythonParser#listaEmExpressao.

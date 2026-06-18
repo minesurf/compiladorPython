@@ -590,30 +590,41 @@ class PythonParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def RETURN(self):
-            return self.getToken(PythonParser.RETURN, 0)
-
-        def expr(self):
-            return self.getTypedRuleContext(PythonParser.ExprContext,0)
-
 
         def getRuleIndex(self):
             return PythonParser.RULE_returnStmt
 
+     
+        def copyFrom(self, ctx:ParserRuleContext):
+            super().copyFrom(ctx)
+
+
+
+    class ReturnStmttContext(ReturnStmtContext):
+
+        def __init__(self, parser, ctx:ParserRuleContext): # actually a PythonParser.ReturnStmtContext
+            super().__init__(parser)
+            self.copyFrom(ctx)
+
+        def RETURN(self):
+            return self.getToken(PythonParser.RETURN, 0)
+        def expr(self):
+            return self.getTypedRuleContext(PythonParser.ExprContext,0)
+
+
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterReturnStmt" ):
-                listener.enterReturnStmt(self)
+            if hasattr( listener, "enterReturnStmtt" ):
+                listener.enterReturnStmtt(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitReturnStmt" ):
-                listener.exitReturnStmt(self)
+            if hasattr( listener, "exitReturnStmtt" ):
+                listener.exitReturnStmtt(self)
 
         def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitReturnStmt" ):
-                return visitor.visitReturnStmt(self)
+            if hasattr( visitor, "visitReturnStmtt" ):
+                return visitor.visitReturnStmtt(self)
             else:
                 return visitor.visitChildren(self)
-
 
 
 
@@ -622,6 +633,7 @@ class PythonParser ( Parser ):
         localctx = PythonParser.ReturnStmtContext(self, self._ctx, self.state)
         self.enterRule(localctx, 6, self.RULE_returnStmt)
         try:
+            localctx = PythonParser.ReturnStmttContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
             self.state = 61
             self.match(PythonParser.RETURN)

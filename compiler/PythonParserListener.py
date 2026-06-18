@@ -35,12 +35,12 @@ class PythonParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by PythonParser#returnStmt.
-    def enterReturnStmt(self, ctx:PythonParser.ReturnStmtContext):
+    # Enter a parse tree produced by PythonParser#returnStmtt.
+    def enterReturnStmtt(self, ctx:PythonParser.ReturnStmttContext):
         pass
 
-    # Exit a parse tree produced by PythonParser#returnStmt.
-    def exitReturnStmt(self, ctx:PythonParser.ReturnStmtContext):
+    # Exit a parse tree produced by PythonParser#returnStmtt.
+    def exitReturnStmtt(self, ctx:PythonParser.ReturnStmttContext):
         pass
 
 
