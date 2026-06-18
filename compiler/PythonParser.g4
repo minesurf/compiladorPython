@@ -5,9 +5,11 @@ options { tokenVocab=PythonLexer; }
 code : (stat | condicional | func | func_call | loop_while | loop_for | NEWLINE)* EOF ;
 
 // Uma instrução simples
-stat : (expr | query | atribuicao) NEWLINE? ;
+stat : (expr | query | atribuicao | returnStmt) NEWLINE? ;
 
 atribuicao : (ID | PRINT) '=' expr ;
+
+returnStmt : RETURN expr ;
 
 // Estrutura de repetição WHILE
 loop_while
@@ -41,6 +43,7 @@ bloco
 
 // Expressões aritméticas, gerais e Estruturas de Dados (Fase 8)
 expr : LPAREN expr RPAREN                                                         # expressoesEntreParenteses
+     | <assoc=right> expr DOUBLE_STAR expr                                        # operacoesComExpressoes
      | expr (MULTIPLY | DIVISION | DOUBLE_SLASH | MODULUS) expr                  # operacoesComExpressoes
      | expr (PLUS | MINUS) expr                                                   # operacoesComExpressoes
      | TRUE                                                                      # booleanosEmExpressaoTrue

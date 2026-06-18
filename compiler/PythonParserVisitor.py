@@ -24,6 +24,11 @@ class PythonParserVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by PythonParser#returnStmt.
+    def visitReturnStmt(self, ctx:PythonParser.ReturnStmtContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by PythonParser#estruturaWhile.
     def visitEstruturaWhile(self, ctx:PythonParser.EstruturaWhileContext):
         return self.visitChildren(ctx)

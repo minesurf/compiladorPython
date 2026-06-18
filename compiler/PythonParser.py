@@ -10,102 +10,106 @@ else:
 
 def serializedATN():
     return [
-        4,1,91,260,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,91,269,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,1,0,1,0,1,0,1,0,1,0,1,0,1,0,5,0,40,8,0,10,0,
-        12,0,43,9,0,1,0,1,0,1,1,1,1,1,1,3,1,50,8,1,1,1,3,1,53,8,1,1,2,1,
-        2,1,2,1,2,1,3,1,3,1,3,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,
-        4,3,4,73,8,4,1,4,1,4,1,4,3,4,78,8,4,1,4,1,4,1,4,1,4,1,5,1,5,1,5,
-        1,5,1,5,1,5,5,5,90,8,5,10,5,12,5,93,9,5,3,5,95,8,5,1,5,1,5,1,5,1,
-        5,1,5,1,6,1,6,1,6,1,6,1,6,5,6,107,8,6,10,6,12,6,110,9,6,3,6,112,
-        8,6,1,6,1,6,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,5,7,127,
-        8,7,10,7,12,7,130,9,7,1,7,1,7,1,7,1,7,3,7,136,8,7,1,8,1,8,1,8,1,
-        8,1,8,1,8,1,8,4,8,145,8,8,11,8,12,8,146,1,9,1,9,1,9,1,9,1,9,1,9,
-        1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,3,9,166,8,9,1,9,1,9,
-        1,9,1,9,1,9,1,9,5,9,174,8,9,10,9,12,9,177,9,9,1,10,1,10,1,10,1,10,
-        5,10,183,8,10,10,10,12,10,186,9,10,3,10,188,8,10,1,10,1,10,1,11,
-        1,11,1,11,1,11,5,11,196,8,11,10,11,12,11,199,9,11,3,11,201,8,11,
-        3,11,203,8,11,1,11,1,11,1,12,1,12,1,12,1,12,5,12,211,8,12,10,12,
-        12,12,214,9,12,1,12,1,12,1,13,1,13,1,13,1,13,5,13,222,8,13,10,13,
-        12,13,225,9,13,3,13,227,8,13,1,13,1,13,1,14,1,14,1,14,1,14,1,15,
-        1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,3,15,247,
-        8,15,1,15,1,15,1,15,1,15,1,15,1,15,5,15,255,8,15,10,15,12,15,258,
-        9,15,1,15,0,2,18,30,16,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,
-        0,5,2,0,77,77,89,89,2,0,3,3,5,7,1,0,1,2,2,0,36,36,38,38,1,0,11,16,
-        295,0,41,1,0,0,0,2,49,1,0,0,0,4,54,1,0,0,0,6,58,1,0,0,0,8,64,1,0,
-        0,0,10,83,1,0,0,0,12,101,1,0,0,0,14,115,1,0,0,0,16,144,1,0,0,0,18,
-        165,1,0,0,0,20,178,1,0,0,0,22,191,1,0,0,0,24,206,1,0,0,0,26,217,
-        1,0,0,0,28,230,1,0,0,0,30,246,1,0,0,0,32,40,3,2,1,0,33,40,3,14,7,
-        0,34,40,3,10,5,0,35,40,3,12,6,0,36,40,3,6,3,0,37,40,3,8,4,0,38,40,
-        5,88,0,0,39,32,1,0,0,0,39,33,1,0,0,0,39,34,1,0,0,0,39,35,1,0,0,0,
-        39,36,1,0,0,0,39,37,1,0,0,0,39,38,1,0,0,0,40,43,1,0,0,0,41,39,1,
-        0,0,0,41,42,1,0,0,0,42,44,1,0,0,0,43,41,1,0,0,0,44,45,5,0,0,1,45,
-        1,1,0,0,0,46,50,3,18,9,0,47,50,3,30,15,0,48,50,3,4,2,0,49,46,1,0,
-        0,0,49,47,1,0,0,0,49,48,1,0,0,0,50,52,1,0,0,0,51,53,5,88,0,0,52,
-        51,1,0,0,0,52,53,1,0,0,0,53,3,1,0,0,0,54,55,7,0,0,0,55,56,5,25,0,
-        0,56,57,3,18,9,0,57,5,1,0,0,0,58,59,5,66,0,0,59,60,3,30,15,0,60,
-        61,5,32,0,0,61,62,5,88,0,0,62,63,3,16,8,0,63,7,1,0,0,0,64,65,5,51,
-        0,0,65,66,5,89,0,0,66,77,5,56,0,0,67,68,5,81,0,0,68,69,5,26,0,0,
-        69,72,3,18,9,0,70,71,5,33,0,0,71,73,3,18,9,0,72,70,1,0,0,0,72,73,
-        1,0,0,0,73,74,1,0,0,0,74,75,5,27,0,0,75,78,1,0,0,0,76,78,3,18,9,
-        0,77,67,1,0,0,0,77,76,1,0,0,0,78,79,1,0,0,0,79,80,5,32,0,0,80,81,
-        5,88,0,0,81,82,3,16,8,0,82,9,1,0,0,0,83,84,5,45,0,0,84,85,5,89,0,
-        0,85,94,5,26,0,0,86,91,5,89,0,0,87,88,5,33,0,0,88,90,5,89,0,0,89,
-        87,1,0,0,0,90,93,1,0,0,0,91,89,1,0,0,0,91,92,1,0,0,0,92,95,1,0,0,
-        0,93,91,1,0,0,0,94,86,1,0,0,0,94,95,1,0,0,0,95,96,1,0,0,0,96,97,
-        5,27,0,0,97,98,5,32,0,0,98,99,5,88,0,0,99,100,3,16,8,0,100,11,1,
-        0,0,0,101,102,7,0,0,0,102,111,5,26,0,0,103,108,3,18,9,0,104,105,
-        5,33,0,0,105,107,3,18,9,0,106,104,1,0,0,0,107,110,1,0,0,0,108,106,
-        1,0,0,0,108,109,1,0,0,0,109,112,1,0,0,0,110,108,1,0,0,0,111,103,
-        1,0,0,0,111,112,1,0,0,0,112,113,1,0,0,0,113,114,5,27,0,0,114,13,
-        1,0,0,0,115,116,5,54,0,0,116,117,3,30,15,0,117,118,5,32,0,0,118,
-        119,5,88,0,0,119,128,3,16,8,0,120,121,5,47,0,0,121,122,3,30,15,0,
-        122,123,5,32,0,0,123,124,5,88,0,0,124,125,3,16,8,0,125,127,1,0,0,
-        0,126,120,1,0,0,0,127,130,1,0,0,0,128,126,1,0,0,0,128,129,1,0,0,
-        0,129,135,1,0,0,0,130,128,1,0,0,0,131,132,5,48,0,0,132,133,5,32,
-        0,0,133,134,5,88,0,0,134,136,3,16,8,0,135,131,1,0,0,0,135,136,1,
-        0,0,0,136,15,1,0,0,0,137,145,3,2,1,0,138,145,3,14,7,0,139,145,3,
-        10,5,0,140,145,3,12,6,0,141,145,3,6,3,0,142,145,3,8,4,0,143,145,
-        5,88,0,0,144,137,1,0,0,0,144,138,1,0,0,0,144,139,1,0,0,0,144,140,
-        1,0,0,0,144,141,1,0,0,0,144,142,1,0,0,0,144,143,1,0,0,0,145,146,
-        1,0,0,0,146,144,1,0,0,0,146,147,1,0,0,0,147,17,1,0,0,0,148,149,6,
-        9,-1,0,149,150,5,26,0,0,150,151,3,18,9,0,151,152,5,27,0,0,152,166,
-        1,0,0,0,153,166,5,38,0,0,154,166,5,36,0,0,155,166,3,12,6,0,156,166,
-        5,89,0,0,157,166,5,77,0,0,158,166,5,90,0,0,159,166,5,85,0,0,160,
-        166,5,86,0,0,161,166,3,20,10,0,162,166,3,22,11,0,163,166,3,24,12,
-        0,164,166,3,26,13,0,165,148,1,0,0,0,165,153,1,0,0,0,165,154,1,0,
-        0,0,165,155,1,0,0,0,165,156,1,0,0,0,165,157,1,0,0,0,165,158,1,0,
-        0,0,165,159,1,0,0,0,165,160,1,0,0,0,165,161,1,0,0,0,165,162,1,0,
-        0,0,165,163,1,0,0,0,165,164,1,0,0,0,166,175,1,0,0,0,167,168,10,14,
-        0,0,168,169,7,1,0,0,169,174,3,18,9,15,170,171,10,13,0,0,171,172,
-        7,2,0,0,172,174,3,18,9,14,173,167,1,0,0,0,173,170,1,0,0,0,174,177,
-        1,0,0,0,175,173,1,0,0,0,175,176,1,0,0,0,176,19,1,0,0,0,177,175,1,
-        0,0,0,178,187,5,28,0,0,179,184,3,18,9,0,180,181,5,33,0,0,181,183,
-        3,18,9,0,182,180,1,0,0,0,183,186,1,0,0,0,184,182,1,0,0,0,184,185,
-        1,0,0,0,185,188,1,0,0,0,186,184,1,0,0,0,187,179,1,0,0,0,187,188,
-        1,0,0,0,188,189,1,0,0,0,189,190,5,29,0,0,190,21,1,0,0,0,191,202,
-        5,26,0,0,192,200,3,18,9,0,193,197,5,33,0,0,194,196,3,18,9,0,195,
-        194,1,0,0,0,196,199,1,0,0,0,197,195,1,0,0,0,197,198,1,0,0,0,198,
-        201,1,0,0,0,199,197,1,0,0,0,200,193,1,0,0,0,200,201,1,0,0,0,201,
-        203,1,0,0,0,202,192,1,0,0,0,202,203,1,0,0,0,203,204,1,0,0,0,204,
-        205,5,27,0,0,205,23,1,0,0,0,206,207,5,30,0,0,207,212,3,18,9,0,208,
-        209,5,33,0,0,209,211,3,18,9,0,210,208,1,0,0,0,211,214,1,0,0,0,212,
-        210,1,0,0,0,212,213,1,0,0,0,213,215,1,0,0,0,214,212,1,0,0,0,215,
-        216,5,31,0,0,216,25,1,0,0,0,217,226,5,30,0,0,218,223,3,28,14,0,219,
-        220,5,33,0,0,220,222,3,28,14,0,221,219,1,0,0,0,222,225,1,0,0,0,223,
-        221,1,0,0,0,223,224,1,0,0,0,224,227,1,0,0,0,225,223,1,0,0,0,226,
-        218,1,0,0,0,226,227,1,0,0,0,227,228,1,0,0,0,228,229,5,31,0,0,229,
-        27,1,0,0,0,230,231,3,18,9,0,231,232,5,32,0,0,232,233,3,18,9,0,233,
-        29,1,0,0,0,234,235,6,15,-1,0,235,247,7,3,0,0,236,237,5,26,0,0,237,
-        238,3,30,15,0,238,239,5,27,0,0,239,247,1,0,0,0,240,241,5,60,0,0,
-        241,247,3,30,15,4,242,243,3,18,9,0,243,244,7,4,0,0,244,245,3,18,
-        9,0,245,247,1,0,0,0,246,234,1,0,0,0,246,236,1,0,0,0,246,240,1,0,
-        0,0,246,242,1,0,0,0,247,256,1,0,0,0,248,249,10,3,0,0,249,250,5,39,
-        0,0,250,255,3,30,15,4,251,252,10,2,0,0,252,253,5,61,0,0,253,255,
-        3,30,15,3,254,248,1,0,0,0,254,251,1,0,0,0,255,258,1,0,0,0,256,254,
-        1,0,0,0,256,257,1,0,0,0,257,31,1,0,0,0,258,256,1,0,0,0,28,39,41,
-        49,52,72,77,91,94,108,111,128,135,144,146,165,173,175,184,187,197,
-        200,202,212,223,226,246,254,256
+        2,14,7,14,2,15,7,15,2,16,7,16,1,0,1,0,1,0,1,0,1,0,1,0,1,0,5,0,42,
+        8,0,10,0,12,0,45,9,0,1,0,1,0,1,1,1,1,1,1,1,1,3,1,53,8,1,1,1,3,1,
+        56,8,1,1,2,1,2,1,2,1,2,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,4,1,4,1,5,1,
+        5,1,5,1,5,1,5,1,5,1,5,1,5,3,5,79,8,5,1,5,1,5,1,5,3,5,84,8,5,1,5,
+        1,5,1,5,1,5,1,6,1,6,1,6,1,6,1,6,1,6,5,6,96,8,6,10,6,12,6,99,9,6,
+        3,6,101,8,6,1,6,1,6,1,6,1,6,1,6,1,7,1,7,1,7,1,7,1,7,5,7,113,8,7,
+        10,7,12,7,116,9,7,3,7,118,8,7,1,7,1,7,1,8,1,8,1,8,1,8,1,8,1,8,1,
+        8,1,8,1,8,1,8,1,8,5,8,133,8,8,10,8,12,8,136,9,8,1,8,1,8,1,8,1,8,
+        3,8,142,8,8,1,9,1,9,1,9,1,9,1,9,1,9,1,9,4,9,151,8,9,11,9,12,9,152,
+        1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,
+        1,10,1,10,1,10,1,10,3,10,172,8,10,1,10,1,10,1,10,1,10,1,10,1,10,
+        1,10,1,10,1,10,5,10,183,8,10,10,10,12,10,186,9,10,1,11,1,11,1,11,
+        1,11,5,11,192,8,11,10,11,12,11,195,9,11,3,11,197,8,11,1,11,1,11,
+        1,12,1,12,1,12,1,12,5,12,205,8,12,10,12,12,12,208,9,12,3,12,210,
+        8,12,3,12,212,8,12,1,12,1,12,1,13,1,13,1,13,1,13,5,13,220,8,13,10,
+        13,12,13,223,9,13,1,13,1,13,1,14,1,14,1,14,1,14,5,14,231,8,14,10,
+        14,12,14,234,9,14,3,14,236,8,14,1,14,1,14,1,15,1,15,1,15,1,15,1,
+        16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,1,16,3,16,256,
+        8,16,1,16,1,16,1,16,1,16,1,16,1,16,5,16,264,8,16,10,16,12,16,267,
+        9,16,1,16,0,2,20,32,17,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,
+        32,0,5,2,0,77,77,89,89,2,0,3,3,5,7,1,0,1,2,2,0,36,36,38,38,1,0,11,
+        16,305,0,43,1,0,0,0,2,52,1,0,0,0,4,57,1,0,0,0,6,61,1,0,0,0,8,64,
+        1,0,0,0,10,70,1,0,0,0,12,89,1,0,0,0,14,107,1,0,0,0,16,121,1,0,0,
+        0,18,150,1,0,0,0,20,171,1,0,0,0,22,187,1,0,0,0,24,200,1,0,0,0,26,
+        215,1,0,0,0,28,226,1,0,0,0,30,239,1,0,0,0,32,255,1,0,0,0,34,42,3,
+        2,1,0,35,42,3,16,8,0,36,42,3,12,6,0,37,42,3,14,7,0,38,42,3,8,4,0,
+        39,42,3,10,5,0,40,42,5,88,0,0,41,34,1,0,0,0,41,35,1,0,0,0,41,36,
+        1,0,0,0,41,37,1,0,0,0,41,38,1,0,0,0,41,39,1,0,0,0,41,40,1,0,0,0,
+        42,45,1,0,0,0,43,41,1,0,0,0,43,44,1,0,0,0,44,46,1,0,0,0,45,43,1,
+        0,0,0,46,47,5,0,0,1,47,1,1,0,0,0,48,53,3,20,10,0,49,53,3,32,16,0,
+        50,53,3,4,2,0,51,53,3,6,3,0,52,48,1,0,0,0,52,49,1,0,0,0,52,50,1,
+        0,0,0,52,51,1,0,0,0,53,55,1,0,0,0,54,56,5,88,0,0,55,54,1,0,0,0,55,
+        56,1,0,0,0,56,3,1,0,0,0,57,58,7,0,0,0,58,59,5,25,0,0,59,60,3,20,
+        10,0,60,5,1,0,0,0,61,62,5,64,0,0,62,63,3,20,10,0,63,7,1,0,0,0,64,
+        65,5,66,0,0,65,66,3,32,16,0,66,67,5,32,0,0,67,68,5,88,0,0,68,69,
+        3,18,9,0,69,9,1,0,0,0,70,71,5,51,0,0,71,72,5,89,0,0,72,83,5,56,0,
+        0,73,74,5,81,0,0,74,75,5,26,0,0,75,78,3,20,10,0,76,77,5,33,0,0,77,
+        79,3,20,10,0,78,76,1,0,0,0,78,79,1,0,0,0,79,80,1,0,0,0,80,81,5,27,
+        0,0,81,84,1,0,0,0,82,84,3,20,10,0,83,73,1,0,0,0,83,82,1,0,0,0,84,
+        85,1,0,0,0,85,86,5,32,0,0,86,87,5,88,0,0,87,88,3,18,9,0,88,11,1,
+        0,0,0,89,90,5,45,0,0,90,91,5,89,0,0,91,100,5,26,0,0,92,97,5,89,0,
+        0,93,94,5,33,0,0,94,96,5,89,0,0,95,93,1,0,0,0,96,99,1,0,0,0,97,95,
+        1,0,0,0,97,98,1,0,0,0,98,101,1,0,0,0,99,97,1,0,0,0,100,92,1,0,0,
+        0,100,101,1,0,0,0,101,102,1,0,0,0,102,103,5,27,0,0,103,104,5,32,
+        0,0,104,105,5,88,0,0,105,106,3,18,9,0,106,13,1,0,0,0,107,108,7,0,
+        0,0,108,117,5,26,0,0,109,114,3,20,10,0,110,111,5,33,0,0,111,113,
+        3,20,10,0,112,110,1,0,0,0,113,116,1,0,0,0,114,112,1,0,0,0,114,115,
+        1,0,0,0,115,118,1,0,0,0,116,114,1,0,0,0,117,109,1,0,0,0,117,118,
+        1,0,0,0,118,119,1,0,0,0,119,120,5,27,0,0,120,15,1,0,0,0,121,122,
+        5,54,0,0,122,123,3,32,16,0,123,124,5,32,0,0,124,125,5,88,0,0,125,
+        134,3,18,9,0,126,127,5,47,0,0,127,128,3,32,16,0,128,129,5,32,0,0,
+        129,130,5,88,0,0,130,131,3,18,9,0,131,133,1,0,0,0,132,126,1,0,0,
+        0,133,136,1,0,0,0,134,132,1,0,0,0,134,135,1,0,0,0,135,141,1,0,0,
+        0,136,134,1,0,0,0,137,138,5,48,0,0,138,139,5,32,0,0,139,140,5,88,
+        0,0,140,142,3,18,9,0,141,137,1,0,0,0,141,142,1,0,0,0,142,17,1,0,
+        0,0,143,151,3,2,1,0,144,151,3,16,8,0,145,151,3,12,6,0,146,151,3,
+        14,7,0,147,151,3,8,4,0,148,151,3,10,5,0,149,151,5,88,0,0,150,143,
+        1,0,0,0,150,144,1,0,0,0,150,145,1,0,0,0,150,146,1,0,0,0,150,147,
+        1,0,0,0,150,148,1,0,0,0,150,149,1,0,0,0,151,152,1,0,0,0,152,150,
+        1,0,0,0,152,153,1,0,0,0,153,19,1,0,0,0,154,155,6,10,-1,0,155,156,
+        5,26,0,0,156,157,3,20,10,0,157,158,5,27,0,0,158,172,1,0,0,0,159,
+        172,5,38,0,0,160,172,5,36,0,0,161,172,3,14,7,0,162,172,5,89,0,0,
+        163,172,5,77,0,0,164,172,5,90,0,0,165,172,5,85,0,0,166,172,5,86,
+        0,0,167,172,3,22,11,0,168,172,3,24,12,0,169,172,3,26,13,0,170,172,
+        3,28,14,0,171,154,1,0,0,0,171,159,1,0,0,0,171,160,1,0,0,0,171,161,
+        1,0,0,0,171,162,1,0,0,0,171,163,1,0,0,0,171,164,1,0,0,0,171,165,
+        1,0,0,0,171,166,1,0,0,0,171,167,1,0,0,0,171,168,1,0,0,0,171,169,
+        1,0,0,0,171,170,1,0,0,0,172,184,1,0,0,0,173,174,10,15,0,0,174,175,
+        5,4,0,0,175,183,3,20,10,15,176,177,10,14,0,0,177,178,7,1,0,0,178,
+        183,3,20,10,15,179,180,10,13,0,0,180,181,7,2,0,0,181,183,3,20,10,
+        14,182,173,1,0,0,0,182,176,1,0,0,0,182,179,1,0,0,0,183,186,1,0,0,
+        0,184,182,1,0,0,0,184,185,1,0,0,0,185,21,1,0,0,0,186,184,1,0,0,0,
+        187,196,5,28,0,0,188,193,3,20,10,0,189,190,5,33,0,0,190,192,3,20,
+        10,0,191,189,1,0,0,0,192,195,1,0,0,0,193,191,1,0,0,0,193,194,1,0,
+        0,0,194,197,1,0,0,0,195,193,1,0,0,0,196,188,1,0,0,0,196,197,1,0,
+        0,0,197,198,1,0,0,0,198,199,5,29,0,0,199,23,1,0,0,0,200,211,5,26,
+        0,0,201,209,3,20,10,0,202,206,5,33,0,0,203,205,3,20,10,0,204,203,
+        1,0,0,0,205,208,1,0,0,0,206,204,1,0,0,0,206,207,1,0,0,0,207,210,
+        1,0,0,0,208,206,1,0,0,0,209,202,1,0,0,0,209,210,1,0,0,0,210,212,
+        1,0,0,0,211,201,1,0,0,0,211,212,1,0,0,0,212,213,1,0,0,0,213,214,
+        5,27,0,0,214,25,1,0,0,0,215,216,5,30,0,0,216,221,3,20,10,0,217,218,
+        5,33,0,0,218,220,3,20,10,0,219,217,1,0,0,0,220,223,1,0,0,0,221,219,
+        1,0,0,0,221,222,1,0,0,0,222,224,1,0,0,0,223,221,1,0,0,0,224,225,
+        5,31,0,0,225,27,1,0,0,0,226,235,5,30,0,0,227,232,3,30,15,0,228,229,
+        5,33,0,0,229,231,3,30,15,0,230,228,1,0,0,0,231,234,1,0,0,0,232,230,
+        1,0,0,0,232,233,1,0,0,0,233,236,1,0,0,0,234,232,1,0,0,0,235,227,
+        1,0,0,0,235,236,1,0,0,0,236,237,1,0,0,0,237,238,5,31,0,0,238,29,
+        1,0,0,0,239,240,3,20,10,0,240,241,5,32,0,0,241,242,3,20,10,0,242,
+        31,1,0,0,0,243,244,6,16,-1,0,244,256,7,3,0,0,245,246,5,26,0,0,246,
+        247,3,32,16,0,247,248,5,27,0,0,248,256,1,0,0,0,249,250,5,60,0,0,
+        250,256,3,32,16,4,251,252,3,20,10,0,252,253,7,4,0,0,253,254,3,20,
+        10,0,254,256,1,0,0,0,255,243,1,0,0,0,255,245,1,0,0,0,255,249,1,0,
+        0,0,255,251,1,0,0,0,256,265,1,0,0,0,257,258,10,3,0,0,258,259,5,39,
+        0,0,259,264,3,32,16,4,260,261,10,2,0,0,261,262,5,61,0,0,262,264,
+        3,32,16,3,263,257,1,0,0,0,263,260,1,0,0,0,264,267,1,0,0,0,265,263,
+        1,0,0,0,265,266,1,0,0,0,266,33,1,0,0,0,267,265,1,0,0,0,28,41,43,
+        52,55,78,83,97,100,114,117,134,141,150,152,171,182,184,193,196,206,
+        209,211,221,232,235,255,263,265
     ]
 
 class PythonParser ( Parser ):
@@ -154,24 +158,25 @@ class PythonParser ( Parser ):
     RULE_code = 0
     RULE_stat = 1
     RULE_atribuicao = 2
-    RULE_loop_while = 3
-    RULE_loop_for = 4
-    RULE_func = 5
-    RULE_func_call = 6
-    RULE_condicional = 7
-    RULE_bloco = 8
-    RULE_expr = 9
-    RULE_lista = 10
-    RULE_tupla = 11
-    RULE_set_dados = 12
-    RULE_dicionario = 13
-    RULE_elemento_dict = 14
-    RULE_query = 15
+    RULE_returnStmt = 3
+    RULE_loop_while = 4
+    RULE_loop_for = 5
+    RULE_func = 6
+    RULE_func_call = 7
+    RULE_condicional = 8
+    RULE_bloco = 9
+    RULE_expr = 10
+    RULE_lista = 11
+    RULE_tupla = 12
+    RULE_set_dados = 13
+    RULE_dicionario = 14
+    RULE_elemento_dict = 15
+    RULE_query = 16
 
-    ruleNames =  [ "code", "stat", "atribuicao", "loop_while", "loop_for", 
-                   "func", "func_call", "condicional", "bloco", "expr", 
-                   "lista", "tupla", "set_dados", "dicionario", "elemento_dict", 
-                   "query" ]
+    ruleNames =  [ "code", "stat", "atribuicao", "returnStmt", "loop_while", 
+                   "loop_for", "func", "func_call", "condicional", "bloco", 
+                   "expr", "lista", "tupla", "set_dados", "dicionario", 
+                   "elemento_dict", "query" ]
 
     EOF = Token.EOF
     PLUS=1
@@ -336,6 +341,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_code
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterCode" ):
+                listener.enterCode(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitCode" ):
+                listener.exitCode(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitCode" ):
                 return visitor.visitCode(self)
@@ -352,54 +365,54 @@ class PythonParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 41
+            self.state = 43
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1173223232308772864) != 0) or ((((_la - 66)) & ~0x3f) == 0 and ((1 << (_la - 66)) & 30935041) != 0):
-                self.state = 39
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1173223232308772864) != 0) or ((((_la - 64)) & ~0x3f) == 0 and ((1 << (_la - 64)) & 123740165) != 0):
+                self.state = 41
                 self._errHandler.sync(self)
                 la_ = self._interp.adaptivePredict(self._input,0,self._ctx)
                 if la_ == 1:
-                    self.state = 32
+                    self.state = 34
                     self.stat()
                     pass
 
                 elif la_ == 2:
-                    self.state = 33
+                    self.state = 35
                     self.condicional()
                     pass
 
                 elif la_ == 3:
-                    self.state = 34
+                    self.state = 36
                     self.func()
                     pass
 
                 elif la_ == 4:
-                    self.state = 35
+                    self.state = 37
                     self.func_call()
                     pass
 
                 elif la_ == 5:
-                    self.state = 36
+                    self.state = 38
                     self.loop_while()
                     pass
 
                 elif la_ == 6:
-                    self.state = 37
+                    self.state = 39
                     self.loop_for()
                     pass
 
                 elif la_ == 7:
-                    self.state = 38
+                    self.state = 40
                     self.match(PythonParser.NEWLINE)
                     pass
 
 
-                self.state = 43
+                self.state = 45
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 44
+            self.state = 46
             self.match(PythonParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -429,11 +442,23 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.AtribuicaoContext,0)
 
 
+        def returnStmt(self):
+            return self.getTypedRuleContext(PythonParser.ReturnStmtContext,0)
+
+
         def NEWLINE(self):
             return self.getToken(PythonParser.NEWLINE, 0)
 
         def getRuleIndex(self):
             return PythonParser.RULE_stat
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterStat" ):
+                listener.enterStat(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitStat" ):
+                listener.exitStat(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitStat" ):
@@ -450,30 +475,35 @@ class PythonParser ( Parser ):
         self.enterRule(localctx, 2, self.RULE_stat)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 49
+            self.state = 52
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
             if la_ == 1:
-                self.state = 46
+                self.state = 48
                 self.expr(0)
                 pass
 
             elif la_ == 2:
-                self.state = 47
+                self.state = 49
                 self.query(0)
                 pass
 
             elif la_ == 3:
-                self.state = 48
+                self.state = 50
                 self.atribuicao()
                 pass
 
+            elif la_ == 4:
+                self.state = 51
+                self.returnStmt()
+                pass
 
-            self.state = 52
+
+            self.state = 55
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
             if la_ == 1:
-                self.state = 51
+                self.state = 54
                 self.match(PythonParser.NEWLINE)
 
 
@@ -509,6 +539,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_atribuicao
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterAtribuicao" ):
+                listener.enterAtribuicao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitAtribuicao" ):
+                listener.exitAtribuicao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitAtribuicao" ):
                 return visitor.visitAtribuicao(self)
@@ -525,16 +563,69 @@ class PythonParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 54
+            self.state = 57
             _la = self._input.LA(1)
             if not(_la==77 or _la==89):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 55
+            self.state = 58
             self.match(PythonParser.EQUALS)
-            self.state = 56
+            self.state = 59
+            self.expr(0)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ReturnStmtContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def RETURN(self):
+            return self.getToken(PythonParser.RETURN, 0)
+
+        def expr(self):
+            return self.getTypedRuleContext(PythonParser.ExprContext,0)
+
+
+        def getRuleIndex(self):
+            return PythonParser.RULE_returnStmt
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterReturnStmt" ):
+                listener.enterReturnStmt(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitReturnStmt" ):
+                listener.exitReturnStmt(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitReturnStmt" ):
+                return visitor.visitReturnStmt(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def returnStmt(self):
+
+        localctx = PythonParser.ReturnStmtContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 6, self.RULE_returnStmt)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 61
+            self.match(PythonParser.RETURN)
+            self.state = 62
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -581,6 +672,14 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.BlocoContext,0)
 
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEstruturaWhile" ):
+                listener.enterEstruturaWhile(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEstruturaWhile" ):
+                listener.exitEstruturaWhile(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitEstruturaWhile" ):
                 return visitor.visitEstruturaWhile(self)
@@ -592,19 +691,19 @@ class PythonParser ( Parser ):
     def loop_while(self):
 
         localctx = PythonParser.Loop_whileContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_loop_while)
+        self.enterRule(localctx, 8, self.RULE_loop_while)
         try:
             localctx = PythonParser.EstruturaWhileContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
-            self.state = 58
+            self.state = 64
             self.match(PythonParser.WHILE)
-            self.state = 59
+            self.state = 65
             self.query(0)
-            self.state = 60
+            self.state = 66
             self.match(PythonParser.COLON)
-            self.state = 61
+            self.state = 67
             self.match(PythonParser.NEWLINE)
-            self.state = 62
+            self.state = 68
             self.bloco()
         except RecognitionException as re:
             localctx.exception = re
@@ -666,6 +765,14 @@ class PythonParser ( Parser ):
         def COMMA(self):
             return self.getToken(PythonParser.COMMA, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEstruturaFor" ):
+                listener.enterEstruturaFor(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEstruturaFor" ):
+                listener.exitEstruturaFor(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitEstruturaFor" ):
                 return visitor.visitEstruturaFor(self)
@@ -677,52 +784,52 @@ class PythonParser ( Parser ):
     def loop_for(self):
 
         localctx = PythonParser.Loop_forContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_loop_for)
+        self.enterRule(localctx, 10, self.RULE_loop_for)
         self._la = 0 # Token type
         try:
             localctx = PythonParser.EstruturaForContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
-            self.state = 64
+            self.state = 70
             self.match(PythonParser.FOR)
-            self.state = 65
+            self.state = 71
             self.match(PythonParser.ID)
-            self.state = 66
+            self.state = 72
             self.match(PythonParser.IN)
-            self.state = 77
+            self.state = 83
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [81]:
-                self.state = 67
+                self.state = 73
                 self.match(PythonParser.RANGE)
-                self.state = 68
+                self.state = 74
                 self.match(PythonParser.LPAREN)
-                self.state = 69
+                self.state = 75
                 self.expr(0)
-                self.state = 72
+                self.state = 78
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if _la==33:
-                    self.state = 70
+                    self.state = 76
                     self.match(PythonParser.COMMA)
-                    self.state = 71
+                    self.state = 77
                     self.expr(0)
 
 
-                self.state = 74
+                self.state = 80
                 self.match(PythonParser.RPAREN)
                 pass
             elif token in [26, 28, 30, 36, 38, 77, 85, 86, 89, 90]:
-                self.state = 76
+                self.state = 82
                 self.expr(0)
                 pass
             else:
                 raise NoViableAltException(self)
 
-            self.state = 79
+            self.state = 85
             self.match(PythonParser.COLON)
-            self.state = 80
+            self.state = 86
             self.match(PythonParser.NEWLINE)
-            self.state = 81
+            self.state = 87
             self.bloco()
         except RecognitionException as re:
             localctx.exception = re
@@ -780,6 +887,14 @@ class PythonParser ( Parser ):
             else:
                 return self.getToken(PythonParser.COMMA, i)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterDefinicaoFuncao" ):
+                listener.enterDefinicaoFuncao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitDefinicaoFuncao" ):
+                listener.exitDefinicaoFuncao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitDefinicaoFuncao" ):
                 return visitor.visitDefinicaoFuncao(self)
@@ -791,44 +906,44 @@ class PythonParser ( Parser ):
     def func(self):
 
         localctx = PythonParser.FuncContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_func)
+        self.enterRule(localctx, 12, self.RULE_func)
         self._la = 0 # Token type
         try:
             localctx = PythonParser.DefinicaoFuncaoContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
-            self.state = 83
+            self.state = 89
             self.match(PythonParser.DEF)
-            self.state = 84
+            self.state = 90
             self.match(PythonParser.ID)
-            self.state = 85
+            self.state = 91
             self.match(PythonParser.LPAREN)
-            self.state = 94
+            self.state = 100
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==89:
-                self.state = 86
+                self.state = 92
                 self.match(PythonParser.ID)
-                self.state = 91
+                self.state = 97
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==33:
-                    self.state = 87
-                    self.match(PythonParser.COMMA)
-                    self.state = 88
-                    self.match(PythonParser.ID)
                     self.state = 93
+                    self.match(PythonParser.COMMA)
+                    self.state = 94
+                    self.match(PythonParser.ID)
+                    self.state = 99
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 96
+            self.state = 102
             self.match(PythonParser.RPAREN)
-            self.state = 97
+            self.state = 103
             self.match(PythonParser.COLON)
-            self.state = 98
+            self.state = 104
             self.match(PythonParser.NEWLINE)
-            self.state = 99
+            self.state = 105
             self.bloco()
         except RecognitionException as re:
             localctx.exception = re
@@ -882,6 +997,14 @@ class PythonParser ( Parser ):
             else:
                 return self.getToken(PythonParser.COMMA, i)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterChamadaFuncao" ):
+                listener.enterChamadaFuncao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitChamadaFuncao" ):
+                listener.exitChamadaFuncao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitChamadaFuncao" ):
                 return visitor.visitChamadaFuncao(self)
@@ -893,41 +1016,41 @@ class PythonParser ( Parser ):
     def func_call(self):
 
         localctx = PythonParser.Func_callContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_func_call)
+        self.enterRule(localctx, 14, self.RULE_func_call)
         self._la = 0 # Token type
         try:
             localctx = PythonParser.ChamadaFuncaoContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
-            self.state = 101
+            self.state = 107
             _la = self._input.LA(1)
             if not(_la==77 or _la==89):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 102
+            self.state = 108
             self.match(PythonParser.LPAREN)
-            self.state = 111
+            self.state = 117
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 345006669824) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & 13057) != 0):
-                self.state = 103
+                self.state = 109
                 self.expr(0)
-                self.state = 108
+                self.state = 114
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==33:
-                    self.state = 104
-                    self.match(PythonParser.COMMA)
-                    self.state = 105
-                    self.expr(0)
                     self.state = 110
+                    self.match(PythonParser.COMMA)
+                    self.state = 111
+                    self.expr(0)
+                    self.state = 116
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 113
+            self.state = 119
             self.match(PythonParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -993,6 +1116,14 @@ class PythonParser ( Parser ):
         def ELSE(self):
             return self.getToken(PythonParser.ELSE, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterEstruturaCondicional" ):
+                listener.enterEstruturaCondicional(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitEstruturaCondicional" ):
+                listener.exitEstruturaCondicional(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitEstruturaCondicional" ):
                 return visitor.visitEstruturaCondicional(self)
@@ -1004,50 +1135,50 @@ class PythonParser ( Parser ):
     def condicional(self):
 
         localctx = PythonParser.CondicionalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_condicional)
+        self.enterRule(localctx, 16, self.RULE_condicional)
         try:
             localctx = PythonParser.EstruturaCondicionalContext(self, localctx)
             self.enterOuterAlt(localctx, 1)
-            self.state = 115
+            self.state = 121
             self.match(PythonParser.IF)
-            self.state = 116
+            self.state = 122
             self.query(0)
-            self.state = 117
+            self.state = 123
             self.match(PythonParser.COLON)
-            self.state = 118
+            self.state = 124
             self.match(PythonParser.NEWLINE)
-            self.state = 119
+            self.state = 125
             self.bloco()
-            self.state = 128
+            self.state = 134
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 120
+                    self.state = 126
                     self.match(PythonParser.ELIF)
-                    self.state = 121
+                    self.state = 127
                     self.query(0)
-                    self.state = 122
+                    self.state = 128
                     self.match(PythonParser.COLON)
-                    self.state = 123
+                    self.state = 129
                     self.match(PythonParser.NEWLINE)
-                    self.state = 124
+                    self.state = 130
                     self.bloco() 
-                self.state = 130
+                self.state = 136
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
 
-            self.state = 135
+            self.state = 141
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
-                self.state = 131
+                self.state = 137
                 self.match(PythonParser.ELSE)
-                self.state = 132
+                self.state = 138
                 self.match(PythonParser.COLON)
-                self.state = 133
+                self.state = 139
                 self.match(PythonParser.NEWLINE)
-                self.state = 134
+                self.state = 140
                 self.bloco()
 
 
@@ -1118,6 +1249,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_bloco
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterBloco" ):
+                listener.enterBloco(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitBloco" ):
+                listener.exitBloco(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitBloco" ):
                 return visitor.visitBloco(self)
@@ -1130,49 +1269,49 @@ class PythonParser ( Parser ):
     def bloco(self):
 
         localctx = PythonParser.BlocoContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_bloco)
+        self.enterRule(localctx, 18, self.RULE_bloco)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 144 
+            self.state = 150 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 144
+                    self.state = 150
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,12,self._ctx)
                     if la_ == 1:
-                        self.state = 137
+                        self.state = 143
                         self.stat()
                         pass
 
                     elif la_ == 2:
-                        self.state = 138
+                        self.state = 144
                         self.condicional()
                         pass
 
                     elif la_ == 3:
-                        self.state = 139
+                        self.state = 145
                         self.func()
                         pass
 
                     elif la_ == 4:
-                        self.state = 140
+                        self.state = 146
                         self.func_call()
                         pass
 
                     elif la_ == 5:
-                        self.state = 141
+                        self.state = 147
                         self.loop_while()
                         pass
 
                     elif la_ == 6:
-                        self.state = 142
+                        self.state = 148
                         self.loop_for()
                         pass
 
                     elif la_ == 7:
-                        self.state = 143
+                        self.state = 149
                         self.match(PythonParser.NEWLINE)
                         pass
 
@@ -1180,7 +1319,7 @@ class PythonParser ( Parser ):
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 146 
+                self.state = 152 
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,13,self._ctx)
 
@@ -1223,6 +1362,14 @@ class PythonParser ( Parser ):
         def RPAREN(self):
             return self.getToken(PythonParser.RPAREN, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterExpressoesEntreParenteses" ):
+                listener.enterExpressoesEntreParenteses(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitExpressoesEntreParenteses" ):
+                listener.exitExpressoesEntreParenteses(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitExpressoesEntreParenteses" ):
                 return visitor.visitExpressoesEntreParenteses(self)
@@ -1239,6 +1386,14 @@ class PythonParser ( Parser ):
         def STRING(self):
             return self.getToken(PythonParser.STRING, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterStringsEmExpressao" ):
+                listener.enterStringsEmExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitStringsEmExpressao" ):
+                listener.exitStringsEmExpressao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitStringsEmExpressao" ):
                 return visitor.visitStringsEmExpressao(self)
@@ -1254,6 +1409,14 @@ class PythonParser ( Parser ):
 
         def FLOAT(self):
             return self.getToken(PythonParser.FLOAT, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterFloats" ):
+                listener.enterFloats(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitFloats" ):
+                listener.exitFloats(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitFloats" ):
@@ -1274,6 +1437,8 @@ class PythonParser ( Parser ):
             else:
                 return self.getTypedRuleContext(PythonParser.ExprContext,i)
 
+        def DOUBLE_STAR(self):
+            return self.getToken(PythonParser.DOUBLE_STAR, 0)
         def MULTIPLY(self):
             return self.getToken(PythonParser.MULTIPLY, 0)
         def DIVISION(self):
@@ -1286,6 +1451,14 @@ class PythonParser ( Parser ):
             return self.getToken(PythonParser.PLUS, 0)
         def MINUS(self):
             return self.getToken(PythonParser.MINUS, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterOperacoesComExpressoes" ):
+                listener.enterOperacoesComExpressoes(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitOperacoesComExpressoes" ):
+                listener.exitOperacoesComExpressoes(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitOperacoesComExpressoes" ):
@@ -1303,6 +1476,14 @@ class PythonParser ( Parser ):
         def FALSE(self):
             return self.getToken(PythonParser.FALSE, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterBooleanosEmExpressaoFalse" ):
+                listener.enterBooleanosEmExpressaoFalse(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitBooleanosEmExpressaoFalse" ):
+                listener.exitBooleanosEmExpressaoFalse(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitBooleanosEmExpressaoFalse" ):
                 return visitor.visitBooleanosEmExpressaoFalse(self)
@@ -1318,6 +1499,14 @@ class PythonParser ( Parser ):
 
         def PRINT(self):
             return self.getToken(PythonParser.PRINT, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterIdsPrint" ):
+                listener.enterIdsPrint(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitIdsPrint" ):
+                listener.exitIdsPrint(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitIdsPrint" ):
@@ -1335,6 +1524,14 @@ class PythonParser ( Parser ):
         def DIGIT(self):
             return self.getToken(PythonParser.DIGIT, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterNumeros" ):
+                listener.enterNumeros(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitNumeros" ):
+                listener.exitNumeros(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitNumeros" ):
                 return visitor.visitNumeros(self)
@@ -1350,6 +1547,14 @@ class PythonParser ( Parser ):
 
         def TRUE(self):
             return self.getToken(PythonParser.TRUE, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterBooleanosEmExpressaoTrue" ):
+                listener.enterBooleanosEmExpressaoTrue(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitBooleanosEmExpressaoTrue" ):
+                listener.exitBooleanosEmExpressaoTrue(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitBooleanosEmExpressaoTrue" ):
@@ -1368,6 +1573,14 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.Func_callContext,0)
 
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterChamadaFuncaoComoExpressao" ):
+                listener.enterChamadaFuncaoComoExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitChamadaFuncaoComoExpressao" ):
+                listener.exitChamadaFuncaoComoExpressao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitChamadaFuncaoComoExpressao" ):
                 return visitor.visitChamadaFuncaoComoExpressao(self)
@@ -1385,6 +1598,14 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.Set_dadosContext,0)
 
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSetEmExpressao" ):
+                listener.enterSetEmExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSetEmExpressao" ):
+                listener.exitSetEmExpressao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSetEmExpressao" ):
                 return visitor.visitSetEmExpressao(self)
@@ -1400,6 +1621,14 @@ class PythonParser ( Parser ):
 
         def ID(self):
             return self.getToken(PythonParser.ID, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterIds" ):
+                listener.enterIds(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitIds" ):
+                listener.exitIds(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitIds" ):
@@ -1418,6 +1647,14 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.ListaContext,0)
 
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterListaEmExpressao" ):
+                listener.enterListaEmExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitListaEmExpressao" ):
+                listener.exitListaEmExpressao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitListaEmExpressao" ):
                 return visitor.visitListaEmExpressao(self)
@@ -1434,6 +1671,14 @@ class PythonParser ( Parser ):
         def tupla(self):
             return self.getTypedRuleContext(PythonParser.TuplaContext,0)
 
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTuplaEmExpressao" ):
+                listener.enterTuplaEmExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTuplaEmExpressao" ):
+                listener.exitTuplaEmExpressao(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitTuplaEmExpressao" ):
@@ -1452,6 +1697,14 @@ class PythonParser ( Parser ):
             return self.getTypedRuleContext(PythonParser.DicionarioContext,0)
 
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterDicionarioEmExpressao" ):
+                listener.enterDicionarioEmExpressao(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitDicionarioEmExpressao" ):
+                listener.exitDicionarioEmExpressao(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitDicionarioEmExpressao" ):
                 return visitor.visitDicionarioEmExpressao(self)
@@ -1465,12 +1718,12 @@ class PythonParser ( Parser ):
         _parentState = self.state
         localctx = PythonParser.ExprContext(self, self._ctx, _parentState)
         _prevctx = localctx
-        _startState = 18
-        self.enterRecursionRule(localctx, 18, self.RULE_expr, _p)
+        _startState = 20
+        self.enterRecursionRule(localctx, 20, self.RULE_expr, _p)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 165
+            self.state = 171
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,14,self._ctx)
             if la_ == 1:
@@ -1478,11 +1731,11 @@ class PythonParser ( Parser ):
                 self._ctx = localctx
                 _prevctx = localctx
 
-                self.state = 149
+                self.state = 155
                 self.match(PythonParser.LPAREN)
-                self.state = 150
+                self.state = 156
                 self.expr(0)
-                self.state = 151
+                self.state = 157
                 self.match(PythonParser.RPAREN)
                 pass
 
@@ -1490,7 +1743,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.BooleanosEmExpressaoTrueContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 153
+                self.state = 159
                 self.match(PythonParser.TRUE)
                 pass
 
@@ -1498,7 +1751,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.BooleanosEmExpressaoFalseContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 154
+                self.state = 160
                 self.match(PythonParser.FALSE)
                 pass
 
@@ -1506,7 +1759,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.ChamadaFuncaoComoExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 155
+                self.state = 161
                 self.func_call()
                 pass
 
@@ -1514,7 +1767,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.IdsContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 156
+                self.state = 162
                 self.match(PythonParser.ID)
                 pass
 
@@ -1522,7 +1775,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.IdsPrintContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 157
+                self.state = 163
                 self.match(PythonParser.PRINT)
                 pass
 
@@ -1530,7 +1783,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.NumerosContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 158
+                self.state = 164
                 self.match(PythonParser.DIGIT)
                 pass
 
@@ -1538,7 +1791,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.FloatsContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 159
+                self.state = 165
                 self.match(PythonParser.FLOAT)
                 pass
 
@@ -1546,7 +1799,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.StringsEmExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 160
+                self.state = 166
                 self.match(PythonParser.STRING)
                 pass
 
@@ -1554,7 +1807,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.ListaEmExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 161
+                self.state = 167
                 self.lista()
                 pass
 
@@ -1562,7 +1815,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.TuplaEmExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 162
+                self.state = 168
                 self.tupla()
                 pass
 
@@ -1570,7 +1823,7 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.SetEmExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 163
+                self.state = 169
                 self.set_dados()
                 pass
 
@@ -1578,13 +1831,13 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.DicionarioEmExpressaoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 164
+                self.state = 170
                 self.dicionario()
                 pass
 
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 175
+            self.state = 184
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
@@ -1592,47 +1845,60 @@ class PythonParser ( Parser ):
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 173
+                    self.state = 182
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
                     if la_ == 1:
                         localctx = PythonParser.OperacoesComExpressoesContext(self, PythonParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 167
-                        if not self.precpred(self._ctx, 14):
+                        self.state = 173
+                        if not self.precpred(self._ctx, 15):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 14)")
-                        self.state = 168
-                        _la = self._input.LA(1)
-                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 232) != 0)):
-                            self._errHandler.recoverInline(self)
-                        else:
-                            self._errHandler.reportMatch(self)
-                            self.consume()
-                        self.state = 169
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 15)")
+                        self.state = 174
+                        self.match(PythonParser.DOUBLE_STAR)
+                        self.state = 175
                         self.expr(15)
                         pass
 
                     elif la_ == 2:
                         localctx = PythonParser.OperacoesComExpressoesContext(self, PythonParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 170
+                        self.state = 176
+                        if not self.precpred(self._ctx, 14):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 14)")
+                        self.state = 177
+                        _la = self._input.LA(1)
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 232) != 0)):
+                            self._errHandler.recoverInline(self)
+                        else:
+                            self._errHandler.reportMatch(self)
+                            self.consume()
+                        self.state = 178
+                        self.expr(15)
+                        pass
+
+                    elif la_ == 3:
+                        localctx = PythonParser.OperacoesComExpressoesContext(self, PythonParser.ExprContext(self, _parentctx, _parentState))
+                        self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
+                        self.state = 179
                         if not self.precpred(self._ctx, 13):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 13)")
-                        self.state = 171
+                        self.state = 180
                         _la = self._input.LA(1)
                         if not(_la==1 or _la==2):
                             self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 172
+                        self.state = 181
                         self.expr(14)
                         pass
 
              
-                self.state = 177
+                self.state = 186
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
 
@@ -1674,6 +1940,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_lista
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLista" ):
+                listener.enterLista(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLista" ):
+                listener.exitLista(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitLista" ):
                 return visitor.visitLista(self)
@@ -1686,33 +1960,33 @@ class PythonParser ( Parser ):
     def lista(self):
 
         localctx = PythonParser.ListaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_lista)
+        self.enterRule(localctx, 22, self.RULE_lista)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 178
-            self.match(PythonParser.LBRACK)
             self.state = 187
+            self.match(PythonParser.LBRACK)
+            self.state = 196
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 345006669824) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & 13057) != 0):
-                self.state = 179
+                self.state = 188
                 self.expr(0)
-                self.state = 184
+                self.state = 193
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==33:
-                    self.state = 180
+                    self.state = 189
                     self.match(PythonParser.COMMA)
-                    self.state = 181
+                    self.state = 190
                     self.expr(0)
-                    self.state = 186
+                    self.state = 195
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 189
+            self.state = 198
             self.match(PythonParser.RBRACK)
         except RecognitionException as re:
             localctx.exception = re
@@ -1749,6 +2023,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_tupla
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTupla" ):
+                listener.enterTupla(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTupla" ):
+                listener.exitTupla(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitTupla" ):
                 return visitor.visitTupla(self)
@@ -1761,31 +2043,31 @@ class PythonParser ( Parser ):
     def tupla(self):
 
         localctx = PythonParser.TuplaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_tupla)
+        self.enterRule(localctx, 24, self.RULE_tupla)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 191
+            self.state = 200
             self.match(PythonParser.LPAREN)
-            self.state = 202
+            self.state = 211
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 345006669824) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & 13057) != 0):
-                self.state = 192
+                self.state = 201
                 self.expr(0)
-                self.state = 200
+                self.state = 209
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if _la==33:
-                    self.state = 193
+                    self.state = 202
                     self.match(PythonParser.COMMA)
-                    self.state = 197
+                    self.state = 206
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     while (((_la) & ~0x3f) == 0 and ((1 << _la) & 345006669824) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & 13057) != 0):
-                        self.state = 194
+                        self.state = 203
                         self.expr(0)
-                        self.state = 199
+                        self.state = 208
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
 
@@ -1793,7 +2075,7 @@ class PythonParser ( Parser ):
 
 
 
-            self.state = 204
+            self.state = 213
             self.match(PythonParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -1833,6 +2115,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_set_dados
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSet_dados" ):
+                listener.enterSet_dados(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSet_dados" ):
+                listener.exitSet_dados(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSet_dados" ):
                 return visitor.visitSet_dados(self)
@@ -1845,27 +2135,27 @@ class PythonParser ( Parser ):
     def set_dados(self):
 
         localctx = PythonParser.Set_dadosContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_set_dados)
+        self.enterRule(localctx, 26, self.RULE_set_dados)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 206
+            self.state = 215
             self.match(PythonParser.LBRACE)
-            self.state = 207
+            self.state = 216
             self.expr(0)
-            self.state = 212
+            self.state = 221
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==33:
-                self.state = 208
+                self.state = 217
                 self.match(PythonParser.COMMA)
-                self.state = 209
+                self.state = 218
                 self.expr(0)
-                self.state = 214
+                self.state = 223
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 215
+            self.state = 224
             self.match(PythonParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1905,6 +2195,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_dicionario
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterDicionario" ):
+                listener.enterDicionario(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitDicionario" ):
+                listener.exitDicionario(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitDicionario" ):
                 return visitor.visitDicionario(self)
@@ -1917,33 +2215,33 @@ class PythonParser ( Parser ):
     def dicionario(self):
 
         localctx = PythonParser.DicionarioContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_dicionario)
+        self.enterRule(localctx, 28, self.RULE_dicionario)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 217
-            self.match(PythonParser.LBRACE)
             self.state = 226
+            self.match(PythonParser.LBRACE)
+            self.state = 235
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 345006669824) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & 13057) != 0):
-                self.state = 218
+                self.state = 227
                 self.elemento_dict()
-                self.state = 223
+                self.state = 232
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==33:
-                    self.state = 219
+                    self.state = 228
                     self.match(PythonParser.COMMA)
-                    self.state = 220
+                    self.state = 229
                     self.elemento_dict()
-                    self.state = 225
+                    self.state = 234
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 228
+            self.state = 237
             self.match(PythonParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1974,6 +2272,14 @@ class PythonParser ( Parser ):
         def getRuleIndex(self):
             return PythonParser.RULE_elemento_dict
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterElemento_dict" ):
+                listener.enterElemento_dict(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitElemento_dict" ):
+                listener.exitElemento_dict(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitElemento_dict" ):
                 return visitor.visitElemento_dict(self)
@@ -1986,14 +2292,14 @@ class PythonParser ( Parser ):
     def elemento_dict(self):
 
         localctx = PythonParser.Elemento_dictContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_elemento_dict)
+        self.enterRule(localctx, 30, self.RULE_elemento_dict)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 230
+            self.state = 239
             self.expr(0)
-            self.state = 231
+            self.state = 240
             self.match(PythonParser.COLON)
-            self.state = 232
+            self.state = 241
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -2034,6 +2340,14 @@ class PythonParser ( Parser ):
         def RPAREN(self):
             return self.getToken(PythonParser.RPAREN, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterQueryEntreParenteses" ):
+                listener.enterQueryEntreParenteses(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitQueryEntreParenteses" ):
+                listener.exitQueryEntreParenteses(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitQueryEntreParenteses" ):
                 return visitor.visitQueryEntreParenteses(self)
@@ -2059,6 +2373,14 @@ class PythonParser ( Parser ):
             return self.getToken(PythonParser.AND, 0)
         def OR(self):
             return self.getToken(PythonParser.OR, 0)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterOperacoesBooleanasEntreQuerys" ):
+                listener.enterOperacoesBooleanasEntreQuerys(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitOperacoesBooleanasEntreQuerys" ):
+                listener.exitOperacoesBooleanasEntreQuerys(self)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitOperacoesBooleanasEntreQuerys" ):
@@ -2092,6 +2414,14 @@ class PythonParser ( Parser ):
         def LESS_EQUAL(self):
             return self.getToken(PythonParser.LESS_EQUAL, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterRelacoesEntreExpressoes" ):
+                listener.enterRelacoesEntreExpressoes(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitRelacoesEntreExpressoes" ):
+                listener.exitRelacoesEntreExpressoes(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitRelacoesEntreExpressoes" ):
                 return visitor.visitRelacoesEntreExpressoes(self)
@@ -2110,6 +2440,14 @@ class PythonParser ( Parser ):
         def FALSE(self):
             return self.getToken(PythonParser.FALSE, 0)
 
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterValoresBooleanos" ):
+                listener.enterValoresBooleanos(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitValoresBooleanos" ):
+                listener.exitValoresBooleanos(self)
+
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitValoresBooleanos" ):
                 return visitor.visitValoresBooleanos(self)
@@ -2123,12 +2461,12 @@ class PythonParser ( Parser ):
         _parentState = self.state
         localctx = PythonParser.QueryContext(self, self._ctx, _parentState)
         _prevctx = localctx
-        _startState = 30
-        self.enterRecursionRule(localctx, 30, self.RULE_query, _p)
+        _startState = 32
+        self.enterRecursionRule(localctx, 32, self.RULE_query, _p)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 246
+            self.state = 255
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,25,self._ctx)
             if la_ == 1:
@@ -2136,7 +2474,7 @@ class PythonParser ( Parser ):
                 self._ctx = localctx
                 _prevctx = localctx
 
-                self.state = 235
+                self.state = 244
                 _la = self._input.LA(1)
                 if not(_la==36 or _la==38):
                     self._errHandler.recoverInline(self)
@@ -2149,11 +2487,11 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.QueryEntreParentesesContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 236
+                self.state = 245
                 self.match(PythonParser.LPAREN)
-                self.state = 237
+                self.state = 246
                 self.query(0)
-                self.state = 238
+                self.state = 247
                 self.match(PythonParser.RPAREN)
                 pass
 
@@ -2161,9 +2499,9 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.OperacoesBooleanasEntreQuerysContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 240
+                self.state = 249
                 self.match(PythonParser.NOT)
-                self.state = 241
+                self.state = 250
                 self.query(4)
                 pass
 
@@ -2171,22 +2509,22 @@ class PythonParser ( Parser ):
                 localctx = PythonParser.RelacoesEntreExpressoesContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 242
+                self.state = 251
                 self.expr(0)
-                self.state = 243
+                self.state = 252
                 _la = self._input.LA(1)
                 if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 129024) != 0)):
                     self._errHandler.recoverInline(self)
                 else:
                     self._errHandler.reportMatch(self)
                     self.consume()
-                self.state = 244
+                self.state = 253
                 self.expr(0)
                 pass
 
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 256
+            self.state = 265
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,27,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
@@ -2194,37 +2532,37 @@ class PythonParser ( Parser ):
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 254
+                    self.state = 263
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,26,self._ctx)
                     if la_ == 1:
                         localctx = PythonParser.OperacoesBooleanasEntreQuerysContext(self, PythonParser.QueryContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_query)
-                        self.state = 248
+                        self.state = 257
                         if not self.precpred(self._ctx, 3):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 3)")
-                        self.state = 249
+                        self.state = 258
                         self.match(PythonParser.AND)
-                        self.state = 250
+                        self.state = 259
                         self.query(4)
                         pass
 
                     elif la_ == 2:
                         localctx = PythonParser.OperacoesBooleanasEntreQuerysContext(self, PythonParser.QueryContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_query)
-                        self.state = 251
+                        self.state = 260
                         if not self.precpred(self._ctx, 2):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                        self.state = 252
+                        self.state = 261
                         self.match(PythonParser.OR)
-                        self.state = 253
+                        self.state = 262
                         self.query(3)
                         pass
 
              
-                self.state = 258
+                self.state = 267
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,27,self._ctx)
 
@@ -2241,8 +2579,8 @@ class PythonParser ( Parser ):
     def sempred(self, localctx:RuleContext, ruleIndex:int, predIndex:int):
         if self._predicates == None:
             self._predicates = dict()
-        self._predicates[9] = self.expr_sempred
-        self._predicates[15] = self.query_sempred
+        self._predicates[10] = self.expr_sempred
+        self._predicates[16] = self.query_sempred
         pred = self._predicates.get(ruleIndex, None)
         if pred is None:
             raise Exception("No predicate with index:" + str(ruleIndex))
@@ -2251,19 +2589,23 @@ class PythonParser ( Parser ):
 
     def expr_sempred(self, localctx:ExprContext, predIndex:int):
             if predIndex == 0:
-                return self.precpred(self._ctx, 14)
+                return self.precpred(self._ctx, 15)
          
 
             if predIndex == 1:
+                return self.precpred(self._ctx, 14)
+         
+
+            if predIndex == 2:
                 return self.precpred(self._ctx, 13)
          
 
     def query_sempred(self, localctx:QueryContext, predIndex:int):
-            if predIndex == 2:
+            if predIndex == 3:
                 return self.precpred(self._ctx, 3)
          
 
-            if predIndex == 3:
+            if predIndex == 4:
                 return self.precpred(self._ctx, 2)
          
 
